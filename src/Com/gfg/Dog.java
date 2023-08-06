@@ -1,8 +1,8 @@
 package Com.gfg;
 
 public class Dog extends Animal{
-    Dog(int weight){
-        super(weight);
+    Dog(int weight, int age){
+        super(weight, age);
     }
 
     void eat(){

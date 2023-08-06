@@ -11,16 +11,29 @@ public class Main {
 //        Calculator calculator = new Calculator(random.nextInt(100), random.nextInt(100)); // all-arg constructor
 //        System.out.println(calculator.getSum());
 
-        Bird bird = new Bird(random.nextInt(100));
-        bird.eat();
-        Animal animal = new Animal(random.nextInt(100));
-        animal.eat();
-        Dog dog = new Dog(random.nextInt(100));
-        dog.eat();
+//        Bird bird = new Bird(random.nextInt(100));
+//        bird.eat();
+//        Animal animal = new Animal(random.nextInt(100));
+//        animal.eat();
+//        Dog dog = new Dog(random.nextInt(100));
+//        dog.eat();
+//
+//        eat(bird);
+//        eat(animal);
+//        eat(dog);
 
-        eat(bird);
-        eat(animal);
-        eat(dog);
+        // Session -- 2
+
+//        Calculator calculator = new Calculator(2,5, new PowerByMul());
+//
+//        System.out.println(calculator.getPower());
+
+        Lifeform lifeform = new Dog(12, 4);
+        System.out.println(new AgeFinder(lifeform).getAge());
+
+
+
+
     }
 
     //public, private, default/package
